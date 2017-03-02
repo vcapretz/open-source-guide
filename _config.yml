@@ -2,11 +2,14 @@ title: Open Source Guides
 description: A community guide for open source creators.
 
 # See: docs/translations.md
-locale: en-US
+locale: pt-BR
 translations:
   - locale: en-US
     name: English (US)
     repository: github/open-source-guide
+  - locale: pt-BR
+    name: Brasilian Portuguese
+    repository: nandomoreirame/open-source-guide
 
 exclude:
   - bin
