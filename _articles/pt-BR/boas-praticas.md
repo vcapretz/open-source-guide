@@ -1,54 +1,54 @@
 ---
 locale: pt-BR
-title: Best Practices for Maintainers
-description: Making your life easier as an open source maintainer, from documenting processes to leveraging your community.
-class: best-practices
+title: Boas práticas para mantenedor
+description: Fazendo sua vida como mantenedor de projetos open source mais fácil, do processo de documentação até o apoio à comunidade.
+class: boas-praticas
 toc:
-  what-does-it-mean-to-be-a-maintainer: "What does it mean to be a maintainer?"
-  documenting-your-processes: "Documenting your processes"
-  learning-to-say-no: "Learning to say no"
-  leverage-your-community: "Leverage your community"
-  bring-in-the-robots: "Bring in the robots"
-  its-okay-to-hit-pause: "It’s okay to hit pause"
+  o-que-siginifica-ser-um-mantenedor: "O que significa ser um mantenedor?"
+  documentando-seu-processo: "Documentando seu processo"
+  aprendendendo-a-dizer-nao: "Aprendendo a dizer não"
+  alavancando-sua-comunidade: "Alavancando sua comunidade"
+  traga-os-robos: "Traga os robôs"
+  e-ok-pausar: "É OK pausar"
 order: 5
 image: /assets/images/cards/best-practices.png
 ---
 
-## What does it mean to be a maintainer?
+## O que significa ser um mantenedor?
 
-If you maintain an open source project that a lot of people use, you may have noticed you're coding less and responding to issues more.
+Se você mantém um projeto open source que muitas pessoas usam, você deve ter percebido que está codificando menos e respondendo mais questões da comunidade.
 
-In the early stages of a project, you're experimenting with new ideas and making decisions based on what you want. As your project increases in popularity, you'll find yourself working with your users and contributors more.
+Nos estágios iniciais do projeto você está experimentando novas ideias e fazendo decisões baseadas no que você quer. Enquanto seu projeto expande em popularidade, você vai se ver trabalhando mais com seus usuários e contribuintes.
 
-Maintaining a project requires more than code. These tasks are often unexpected, but they're just as important to a growing project. We've gathered a few ways to make your life easier, from documenting processes to leveraging your community.
+Manter um projeto requer mais que códigos. Essas tarefas são inesperadas, apesar de serem tão importantes quanto para o crescimento do seu projeto. Nós juntamos algumas maneiras para fazer sua vida mais fácil, da documentação ao apoio da comunidade.
 
-## Documenting your processes
+## Documentando seu processo
 
-Writing things down is one of the most important things you can do as a maintainer.
+Escrever muitas coisas é um dos passos mais importantes como um mantenedor.
 
-Documentation not only clarifies your own thinking, but it helps other people understand what you need or expect, before they even ask.
+Documentar não somente clarifica suas próprias ideias, mas também ajuda outras pessoas a entenderem o que você precisa ou espera, antes mesmo delas perguntarem.
 
-Writing things down makes it easier to say no when something doesn't fit into your scope. It also makes it easier for people to pitch in and help. You never know who might be reading or using your project.
+Escrever sobre o projeto facilita você dizer não quando algo não está dentro do escopo. Isso também ajuda outras pessoas a iniciarem as contribuições e te ajudarem. Nunca se sabe quem pode estar lendo ou usando seu projeto.
 
-Even if you don't use full paragraphs, jotting down bullet points is better than not writing at all.
+Mesmo que você não use parágrafos completos, separar em pequenos itens continua sendo melhor que não escrever nada.
 
-### Write down your project's vision
+### Escreva a visão do seu projeto
 
-Start by writing down the goals of your project. Add them to your README, or create a separate file called VISION. If there are other artifacts that could help, like a project roadmap, make those public as well.
+Comece escrevendo os objetivo do seu projeto. Adicione-os ao arquivo README, ou até crie um arquivo separado chamado VISION. Se tiver outros itens que possam ajudar, como um roadmap do projeto, torne-os públicos também.
 
-Having a clear, documented vision keeps you focused and helps you avoid "scope creep" from others' contributions.
+Ter uma visão clara e bem documentada te mantém focado e evita que outros contribuidores saiam do escopo.
 
-For example, @lord discovered that having a project vision helped him figure out which requests to spend time on. As a new maintainer, he regretted not sticking to his project's scope when he got his first feature request for [Slate](https://github.com/lord/slate).
+Por exemplo, @lord percebeu que ter uma visão do projeto o ajudou a descobrir em quais requisições gastar seu tempo. Como responsável pela manutenção, ele se arrependeu de não manter rígido no escopo do projeto quanto recebeu sua primeira requisição por um recurso novo no [Slate](https://github.com/lord/slate).
 
 <aside markdown="1" class="pquote">
   <img src="https://avatars2.githubusercontent.com/u/1976330?v=3&s=460" class="pquote-avatar" alt="avatar" alt="@lord avatar">
-  I fumbled it. I didn't put in the effort to come up with a complete solution. Instead of an half-assed solution, I wish I had said "I don't have time for this right now, but I'll add it to the long term nice-to-have list."
+  Eu tentei. Eu não fiz o esforço necessário para trazer uma solução completa. Ao invés de uma solução meia-boca eu queria ter dito "Não tenho tempo para isso agora, mas irei adicionar à lista de longo prazo de itens que seriam importante termos."
   <p markdown="1" class="pquote-credit">
-— @lord, ["Tips for new open source maintainers"](https://lord.io/blog/2014/oss-tips/)
+— @lord, ["Dicas para novos mantenedores de projetos open source"](https://lord.io/blog/2014/oss-tips/)
   </p>
 </aside>
 
-### Communicate your expectations
+### Comunique suas expectativas
 
 Rules can be nerve-wracking to write down. Sometimes you might feel like you're policing other people's behavior or killing all the fun.
 
@@ -77,7 +77,7 @@ If you meet with other maintainers, or make a major decision in private, documen
 
 That way, anybody who joins your community will have access to the same information as someone who's been there for years.
 
-## Learning to say no
+## Aprendendo a dizer não
 
 You've written things down. Ideally, everybody would read your documentation, but in reality, you'll have to remind others that this knowledge exists.
 
@@ -159,7 +159,7 @@ Maybe someone in your community regularly submits contributions that don't meet 
 
 If you see that someone is enthusiastic about your project, but needs a bit of polish, be patient. Explain clearly in each situation why their contributions don't meet the expectations of the project. Try pointing them to an easier or less ambiguous task, like an issue marked _"good first bug,"_ to get their feet wet. If you have time, consider mentoring them through their first contribution, or find someone else in your community who might be willing to mentor them.
 
-## Leverage your community
+## Alavancando sua comunidade
 
 You don't have to do everything yourself. Your project's community exists for a reason! Even if you don't yet have an active contributor community, if you have a lot of users, put them to work.
 
@@ -205,7 +205,7 @@ The same applies to a user who really wants a solution that you simply don't hav
 
 > It's almost inevitable that once a project becomes big, maintainers have to become a lot more conservative about how they introduce new code. You become good at saying "no", but a lot of people have legitimate needs. So, instead you end up converting your tool into a platform.
 
-## Bring in the robots
+## Traga os robôs
 
 Just as there are tasks that other people can help you with, there are also tasks that no human should ever have to do. Robots are your friend. Use them to make your life as a maintainer easier.
 
@@ -245,32 +245,32 @@ However, if your standards are too complicated, they can increase the barriers t
 
 If you're not sure which tools to use, look at what other popular projects do, especially those in your ecosystem. For example, what does the contribution process look like for other Node modules? Using similar tools and approaches will also make your process more familiar to your target contributors.
 
-## It's okay to hit pause
+## É OK pausar
 
-Open source work once brought you joy. Maybe now it's starting to make you feel avoidant or guilty.
+Trabalhar com open source já te trouxe alegrias. Talvez agora esteja começando a fazer você se sentir culpado ou evasivo.
 
-Perhaps you're feeling overwhelmed or a growing sense of dread when you think about your projects. And meanwhile, the issues and pull requests pile up.
+Talvez você esteja pressionado ou com um sentimento de pavor quando pensa sobre seus projetos. E enquanto isso, os Issues e Pull requests continuam crescendo.
 
-Burnout is a real and pervasive issue in open source work, especially among maintainers. As a maintainer, your happiness is a non-negotiable requirement for the survival of any open source project.
+Exaustão é um problema real e sutil em trabalhos open source, especialmente entre mantenedor. Como responsável pela manutenção, sua felicidade é uma exigência não negociável para a sobrevivência de qualquer de seus projetos open source.
 
-Although it should go without saying, take a break! You shouldn't have to wait until you feel burned out to take a vacation. @brettcannon, a Python core developer, decided to take [a month-long vacation](http://www.snarky.ca/why-i-took-october-off-from-oss-volunteering) after 14 years of volunteer OSS work.
+Pode parecer óbvio mas: dê um tempo! Você não precisa esperar a exaustão para tirar um tempo de folga. @brettcannon, um desenvolvedore core do Python, decidiu tirar [um mês de férias](http://www.snarky.ca/why-i-took-october-off-from-oss-volunteering) depois de 14 anos de trabalho voluntário em OSS.
 
-Just like any other type of work, taking regular breaks will keep you refreshed, happy, and excited about your work.
+Assim como qualquer tipo de trabalho, tirar folgas regulares vai te ajudar a se manter renovado, feliz e empolgado com seu trabalho.
 
 <aside markdown="1" class="pquote">
   <img src="https://avatars1.githubusercontent.com/u/36432?v=3&s=400" class="pquote-avatar" alt="avatar">
-  In maintaining WP-CLI, I've discovered I need to make myself happy first, and set clear boundaries on my involvement. The best balance I've found is 2-5 hours per week, as a part of my normal work schedule. This keeps my involvement a passion, and from feeling too much like work. Because I prioritize the issues I'm working on, I can make regular progress on what I think is most important.
+  Mantendo o projeto WP-CLI, descobri que preciso me manter feliz em primeiro lugar, e definir fronteiras claras no meu envolvimento. O melhor balanceametno que encontrei foi 2-5 por semana como uma parte da minha rotina de trabalho. Isso mantém meu envolvimento uma paixão e um sentimento de não tanto quanto um trabalho exatamente. Como eu priorizo as tarefas que estou trabalhando, consigo fazer um progresso constante no que acho que é mais importante.
   <p markdown="1" class="pquote-credit">
-— @danielbachhuber, ["My condolences, you're now the maintainer of a popular open source project"](https://runcommand.io/2016/06/26/my-condolences-youre-now-the-maintainer-of-a-popular-open-source-project/)
+— @danielbachhuber, ["Meus pesâmes, agora você é mantenedor de um projeto open source popular"](https://runcommand.io/2016/06/26/my-condolences-youre-now-the-maintainer-of-a-popular-open-source-project/)
   </p>
 </aside>
 
-Sometimes, it can be hard to take a break from open source work when it feels like everybody needs you. People may even try to make you feel guilty for stepping away.
+Às vezes pode ser díficil tirar uma folga de um projeto open source quando parece que todos dependem de você. Há pessoas que podem até tentar fazer você se sentir culpado pela ausência.
 
-Do your best to find support for your users and community while you're away from a project. If you can't find the support you need, take a break anyway. Be sure to communicate when you're not available, so people aren't confused by your lack of responsiveness.
+Faça seu melhor para achar o apoio para seus usuários e para a comunidade enquanto estiver ausente do seu projeto. Se não puder encontrar o suporte necessário, tire a folga mesmo assim. Lembre-se de comunicar enquanto não estiver disponível de forma que as pessoas não se sintam confusas quando à falta de respostas.
 
-Taking breaks applies to more than just vacations, too. If you don't want to do open source work on weekends, or during work hours, communicate those expectations to others, so they know not to bother you.
+Tirar folgas se aplica a mais que tirar férias. Se você não quer trabalhar em open source nos fins de semana ou durante o horário comercial, comunique essas expectativas para os outros, de forma que não te incomodem.
 
-## Take care of yourself first!
+## Cuide primeiro de você!
 
-Maintaining a popular project requires different skills than the earlier stages of growth, but it's no less rewarding. As a maintainer, you'll practice leadership and personal skills on a level that few people get to experience. While it's not always easy to manage, setting clear boundaries and only taking on what you're comfortable with will help you stay happy, refreshed, and productive.
+Manter um projeto popular requer diferentes competências que nos estágios iniciais do crescimento, mas não deixa de ser menos gratificante. Como responsável pela manutenção do projeto, você vai aprender liderança e competências pessoais em um nível que poucas pessoas chegam à experimentar.Enquanto não é sempre fácil gerenciar, colocar limites claros e se manter num limite do que te deixa confortável te ajudará a se manter feliz, renovado e produtivo.
