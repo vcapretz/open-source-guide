@@ -2,7 +2,7 @@
 locale: pt-BR
 title: Boas práticas para mantenedor
 description: Fazendo sua vida como mantenedor de projetos open source mais fácil, do processo de documentação até o apoio à comunidade.
-class: boas-praticas
+class: best-practices
 toc:
   o-que-significa-ser-um-mantenedor: "O que significa ser um mantenedor?"
   documentando-seu-processo: "Documentando seu processo"
