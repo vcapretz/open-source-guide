@@ -1,15 +1,14 @@
-title: "Open Source Guides"
-description: "Learn how to launch and grow your project."
+title: Guias de Open Source
+description: Um guia comunitário para criadores de Open Source.
 
 # See: docs/translations.md
 locale: pt-BR
 translations:
   en-US:
     name: English (US)
-    url: https://opensource.guide
+    repository: github/open-source-guide
   pt-BR:
-    name: Português (BRA)
-    url: https://nandomoreira.me/open-source-guide/
+    name: Brasilian Portuguese
     repository: nandomoreirame/open-source-guide
 
 exclude:
