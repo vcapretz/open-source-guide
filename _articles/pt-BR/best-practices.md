@@ -120,7 +120,7 @@ Se você não quer aceitar a contribuição:
 
 Você não deve precisar de mais que 1-2 sentenças para responder. Por exemplo, quando um usuário do [celery](https://github.com/celery/celery/) reportou um erro relacionado ao Windows, @berkerpeksag [respondeu com](https://github.com/celery/celery/issues/3383):
 
-![celery screenshot](/assets/images/best-practices/celery.png)
+![Celery screenshot](/assets/images/best-practices/celery.png)
 
 Se a dificuldade em dizer não te assusta, você não está sozinho. Assim como @jessfraz [colocou](https://blog.jessfraz.com/post/the-art-of-closing/):
 
@@ -231,7 +231,7 @@ Se você adicionar testes, explique como funcionam no seu arquivo CONTRIBUTING.
 
 A boa notícia sobre manter projetos populares é que outros mantenedores provavelmente já encontraram problemas parecidos e criaram soluções para isso.
 
-Existe uma [grande variedade de ferramentas disponíveis](https://github.com/integrations) para ajudar a automação de alguns aspectos do trabalho de manutenção. Alguns exemplos:
+Existe uma [grande variedade de ferramentas disponíveis](https://github.com/showcases/tools-for-open-source) para ajudar a automação de alguns aspectos do trabalho de manutenção. Alguns exemplos:
 
 * [semantic-release](https://github.com/semantic-release/semantic-release) automatiza seus novos releases
 * [mention-bot](https://github.com/facebook/mention-bot) menciona potenciais pessoas para revisão de Pull requests
